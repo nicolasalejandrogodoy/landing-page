@@ -1,25 +1,25 @@
 *{
-    padding:0px;
-    margin:0px;
-    box-sizing: border-box;
-  }
-  header{
-   width: 100%;
-   height: auto;
+  padding:0px;
+  margin:0px;
+  box-sizing: border-box;
+}
+@media(min-width:578px){  header{
+ width: 100%;
+ height: auto;
 
 
-   
-    background-size: cover;
-    background-position: center;
+ 
+  background-size: cover;
+  background-position: center;
+
 
   
-    
-  }
-  
+}
+
 .nav-bar{
-  width: 100%;
-  background-color:black;
-  display:flex;
+width: 100%;
+background-color:black;
+display:flex;
 align-items: center;
 justify-content:space-between;
 padding:25px;
@@ -30,322 +30,666 @@ position:fixed;
 
 
 .logo{
-  font-size: 25px;
-  font-weight: 100;
-  color: antiquewhite;
-  
+font-size: 25px;
+font-weight: 100;
+color: antiquewhite;
 
- 
+
+
 
 }
 
 .menu{
-  display:flex;
- 
+display:flex;
+
 }
 .menu li{
-  list-style: none;
+list-style: none;
 margin:10px;
 
 }
 .menu a{
-  text-decoration: none;
-  color:antiquewhite;
-  font-weight: bold;
+text-decoration: none;
+color:antiquewhite;
+font-weight: bold;
 transition: all 0.5s ease;
 }
 
 .menu a:hover{
-  padding: 5px 10px;
-  background: blanchedalmond;
-  border-radius: 15px;
-  color:black;
+padding: 5px 10px;
+background: blanchedalmond;
+border-radius: 15px;
+color:black;
 }
 body{
-  background:white;
+background:white;
 }
 
 .flex-container{
-  display: flex;
-  flex-direction: column;
- 
-  justify-items: center;
+display: flex;
+flex-direction: column;
+
+justify-items: center;
 }
 
 #info-presentacion{
-  padding:20px;
-  margin:20px;
+padding:20px;
+margin:20px;
 }
 .subtitulo{
-  font-size: 30px;
-  text-align: center;
-  margin-top:30px;
-  padding:20px;}
+font-size: 30px;
+text-align: center;
+margin-top:30px;
+padding:20px;}
 
-  .video{
-    text-align: center;
-    
-  }
+.video{
+  text-align: center;
+  width:100%;
+  height:auto;
+  
+}
 
 
 img{
-  width:300px;
-  height:300px;
-  border-radius: 10px;
+width:300px;
+height:300px;
+border-radius: 10px;
 }
 
 
 #productos{
-  height: 1250px;
-  display:flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-  margin-top:200px;
-  margin-bottom:200px;
-  }
-  #box1{
+height: 1250px;
+display:flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-between;
+margin-top:200px;
+margin-bottom:200px;
+}
+#box1{
+height: 300px;
+width:300px;
+text-align: center;}
+#box2{
   height: 300px;
   width:300px;
-text-align: center;}
-  #box2{
-    height: 300px;
-    width:300px;
-    text-align: center;}
-  #box3{
-    height: 300px;
-    width:300px;
-    text-align: center;}
+  text-align: center;}
+#box3{
+  height: 300px;
+  width:300px;
+  text-align: center;}
 
-    .txt-img{
-      margin-top:10px;
-      text-align:center;
-    }
-    .price-img{
-      text-align:center;
-      font-weight:bolder;
-      margin:5px;
-    }
-    .boton-img{
-      margin-bottom:10px;
-      margin-top:10px;
-      padding:10px;
-      background-color: white;
-      color:black;
-      border-radius: 10px;
-      grid-area:11;
-      transition: all 0.5s ease;
-     
-    }
-    .boton-img:hover{
-      cursor:pointer;
-      color:white;
-      background:rgb(0, 0, 0);
-      padding:14px;
-    
-    }
-
-    #caja-caracteristicas{
-     display:grid;
-     height: 60px;
-     width: 100%;
-     grid-template-areas: "content1 content2 content3 content4 content5 content6";
-     margin-top: 10px;
-     margin-bottom: 100px;
-     text-align: center;
-     align-items:center;
-     font-size: 12px;
-     
-     
-
-    }
-    #caja1{
-      height: 100%;
-      width:100;
-       background-color: white;
-       grid-area: content2;       
-       border-bottom:grey 1px solid;
-       border-left:grey 1px solid;
-       
-       
-      
-      
-     
-
-    }
-    #caja2{
-      height: 100%;
-      width:100%;
-      background-color:white;
-      grid-area: content3;
-      
-      border-bottom:grey 1px solid;
-      border-left:grey 1px solid;
-      
-    }
-
-    #caja3{
-      height: 100%;
-      width:100%;
-      background-color: rgb(255, 254, 254);
-      grid-area: content4;
-             border-right:grey 1px solid;
-       border-bottom:grey 1px solid;
-       border-left:grey 1px solid;
-    }
-    #caja4{
-      height: 100%;
-      width:100%;
-      background-color: white;
-      grid-area: content5;
-      border-right:grey 1px solid;
-      border-bottom:grey 1px solid;
-      
-    }
-    .img-cubos{
-      width: 40px;
-      height:40px;
-      vertical-align: middle;
-      
-    }
-    a{
-      text-decoration: none;
-      color:black
-    }
-
-    #contacto{
-      height:300px;
-      margin-top: 100px;
-      display:grid;
-      grid-template-areas: 
-      "superiori superiorc superiord"
-      "izquierda centro derecha"
-      ;
-
-    }
-    #contacto-h2{
-      text-align: center;
-      align-self:center;
-      grid-area:superiorc;
-      font-size: 20px;
-    }
-
-    #col1{
-     
-      grid-area: izquierda;
-      text-align: center;
-      width:100%;
-      line-height: 25px;
-      font-size: 15px;
-    color:rgb(39, 38, 38);
-    }
-
-    #col2{
-     
-      grid-area:centro;
-      text-align: center;
-      width:100%;
-      line-height: 25px;
-      font-size: 15px;
-      color:rgb(39, 38, 38);
-    }
-
-    #col3{
-     
-      grid-area:derecha;
-      text-align: center;
-      width:100%;
-      line-height: 25px;
-      font-size: 15px;
-      color:rgb(39, 38, 38);
-    }
-h2{
-  margin-bottom:30px;
-}
-
-#suscripcion{
-  height:200px;
-  margin-top: 50px;
-  margin-bottom:50px;
-  text-align:center;
- 
-}
-#titulo{
-  font-size: 40px;
-  
- 
-  
-}
-
-#parrafo{
-
-  margin-bottom:15px;
-}  
-  
-
-#email{
-  
-  background-color:white; ;
-  padding:10px;
-  border-top-style:none;
-  border-left-style:none;
-  border-right-style:none;
- 
-
-}
-
- 
-
-#submit{
- 
-  margin-bottom:10px;
-  margin-top:10px;
-  padding:10px;
-  background-color: white;
-  color:black;
-  border-radius: 10px;
-  grid-area:11;
-  transition: all 0.5s ease;
+  .txt-img{
+    margin-top:10px;
+    text-align:center;
   }
-  #boton:hover{
-    
+  .price-img{
+    text-align:center;
+    font-weight:bolder;
+    margin:5px;
+  }
+  .boton-img{
+    margin-bottom:10px;
+    margin-top:10px;
+    padding:10px;
+    background-color: white;
+    color:black;
+    border-radius: 10px;
+    grid-area:11;
+    transition: all 0.5s ease;
+   
+  }
+  .boton-img:hover{
     cursor:pointer;
     color:white;
     background:rgb(0, 0, 0);
     padding:14px;
+  
   }
-  #redes-sociales{
-    text-align: center;
+
+  #caja-caracteristicas{
+   display:grid;
+   height: 60px;
+   width: 100%;
+   grid-template-areas: "content1 content2 content3 content4 content5 content6";
+   margin-top: 10px;
+   margin-bottom: 100px;
+   text-align: center;
+   align-items:center;
+   font-size: 12px;
+   
+   
+
   }
-  .redes{
-    display:flex;
-    flex-direction: row;
-    justify-content: center;
-    height: 80px;
-margin:0;
+  #caja1{
+    height: 100%;
+    width:100%;
+     background-color: white;
+     grid-area: content2;       
+     border-bottom:grey 1px solid;
+     border-left:grey 1px solid;
+     
+     
+    
+    
+   
+
+  }
+  #caja2{
+    height: 100%;
+    width:100%;
+    background-color:white;
+    grid-area: content3;
+    
+    border-bottom:grey 1px solid;
+    border-left:grey 1px solid;
     
   }
 
-  #instagram{
+  #caja3{
+    height: 100%;
+    width:100%;
+    background-color: rgb(255, 254, 254);
+    grid-area: content4;
+           border-right:grey 1px solid;
+     border-bottom:grey 1px solid;
+     border-left:grey 1px solid;
+  }
+  #caja4{
+    height: 100%;
+    width:100%;
+    background-color: white;
+    grid-area: content5;
+    border-right:grey 1px solid;
+    border-bottom:grey 1px solid;
     
-    height: 8px;
-    padding-right: 15px;
-    border-right-style:solid;
-    border-width: 1px;
   }
-  #facebook{
-    
-    padding-left:15px
-
-  }
-  footer{
-    height:30px;
-  }
-  #header-img{
+  .img-cubos{
+    width: 40px;
     height:40px;
-    width:40px;
-    border-radius: 60px;
+    vertical-align: middle;
+    
+  }
+  a{
+    text-decoration: none;
+    color:black
+  }
+
+  #contacto{
+    
+    height:300px;
+    margin-top: 100px;
+    display:grid;
+    grid-template-areas: 
+    "superiori superiorc superiord"
+    "izquierda centro derecha"
+    ;
+
+  }
+  #contacto-h2{
+    text-align: center;
+    align-self:center;
+    grid-area:superiorc;
+    font-size: 20px;
+  }
+
+  #col1{
+   
+    grid-area: izquierda;
+    text-align: center;
+    width:100%;
+    line-height: 25px;
+    font-size: 15px;
+  color:rgb(39, 38, 38);
+  }
+
+  #col2{
+   
+    grid-area:centro;
+    text-align: center;
+    width:100%;
+    line-height: 25px;
+    font-size: 15px;
+    color:rgb(39, 38, 38);
+  }
+
+  #col3{
+   
+    grid-area:derecha;
+    text-align: center;
+    width:100%;
+    line-height: 25px;
+    font-size: 15px;
+    color:rgb(39, 38, 38);
+  }
+h2{
+margin-bottom:30px;
+}
+
+#suscripcion{
+height:200px;
+margin-top: 50px;
+margin-bottom:50px;
+text-align:center;
+
+}
+#titulo{
+font-size: 40px;
+
+
+
+}
+
+#parrafo{
+
+margin-bottom:15px;
+}  
+
+
+#email{
+
+background-color:white; ;
+padding:10px;
+border-top-style:none;
+border-left-style:none;
+border-right-style:none;
+
+
+}
+
+
+
+#submit{
+
+margin-bottom:10px;
+margin-top:10px;
+padding:10px;
+background-color: white;
+color:black;
+border-radius: 10px;
+grid-area:11;
+transition: all 0.5s ease;
+}
+#boton:hover{
+  
+  cursor:pointer;
+  color:white;
+  background:rgb(0, 0, 0);
+  padding:14px;
+}
+#redes-sociales{
+  text-align: center;
+}
+.redes{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 80px;
+margin:0;
+  
+}
+
+#instagram{
+  
+  height: 8px;
+  padding-right: 15px;
+  border-right-style:solid;
+  border-width: 1px;
+}
+#facebook{
+  
+  padding-left:15px
+
+}
+footer{
+  height:30px;
+}
+#header-img{
+  height:40px;
+  width:40px;
+  border-radius: 60px;
+ 
+}
+}
+@media(max-width:577px){
+body{display:flex;
+flex-direction:column;
+
+}
+header{
+ width: 100%;
+ height: auto;
+
+
+ 
+  background-size: cover;
+  background-position: center;
+
+
+  
+}
+
+.nav-bar{
+width: 100%;
+background-color:black;
+display:flex;
+align-items: center;
+justify-content:space-arround;
+padding:25px;
+position:fixed;
+text-align:center;
+
+}
+
+
+.logo{
+display:none;
+}
+
+.menu{
+display:flex;
+
+}
+.menu li{
+list-style: none;
+margin:10px;
+
+}
+.menu a{
+text-decoration: none;
+color:antiquewhite;
+font-weight: bold;
+transition: all 0.5s ease;
+}
+
+.menu a:hover{
+padding: 5px 10px;
+background: blanchedalmond;
+border-radius: 15px;
+color:black;
+}
+body{
+background:white;
+}
+
+.flex-container{
+display: flex;
+flex-direction: column;
+
+justify-items: center;
+}
+
+#info-presentacion{
+padding:20px;
+margin:20px;
+}
+.subtitulo{
+font-size: 30px;
+text-align: center;
+margin-top:30px;
+padding:20px;}
+
+.video{
+  text-align: center;
+
+  max-width:577px;
+  
+}
+
+
+img{
+width:300px;
+height:300px;
+border-radius: 10px;
+}
+
+
+#productos{
+height: 1250px;
+display:flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-between;
+margin-top:200px;
+margin-bottom:200px;
+}
+#box1{
+height: 300px;
+width:300px;
+text-align: center;}
+#box2{
+  height: 300px;
+  width:300px;
+  text-align: center;}
+#box3{
+  height: 300px;
+  width:300px;
+  text-align: center;}
+
+  .txt-img{
+    margin-top:10px;
+    text-align:center;
+  }
+  .price-img{
+    text-align:center;
+    font-weight:bolder;
+    margin:5px;
+  }
+  .boton-img{
+    margin-bottom:10px;
+    margin-top:10px;
+    padding:10px;
+    background-color: white;
+    color:black;
+    border-radius: 10px;
+    grid-area:11;
+    transition: all 0.5s ease;
    
   }
+  .boton-img:hover{
+    cursor:pointer;
+    color:white;
+    background:rgb(0, 0, 0);
+    padding:14px;
+  
+  }
 
-  @media (max-width: 800px){header{flex-direction:column;}}
+  #caja-caracteristicas{
+   display:grid;
+   height: 60px;
+   width: 100%;
+   grid-template-areas: "content1 content2 content3 content4 content5 content6";
+   margin-top: 10px;
+   margin-bottom: 100px;
+   text-align: center;
+   align-items:center;
+   font-size: 12px;
+   border-bottom:grey 1px solid;
+   
+
+  }
+  #caja1{
+    height: 100%;
+    width:100;
+     background-color: white;
+     grid-area: content2;       
+     border-bottom:grey 1px solid;
+     border-left:grey 1px solid;
+     
+     
+    
+    
+   
+
+  }
+  #caja2{
+    height: 100%;
+    width:100%;
+    background-color:white;
+    grid-area: content3;
+    
+    border-bottom:grey 1px solid;
+    border-left:grey 1px solid;
+    
+  }
+
+  #caja3{
+    height: 100%;
+    width:100%;
+    background-color: rgb(255, 254, 254);
+    grid-area: content4;
+           border-right:grey 1px solid;
+     border-bottom:grey 1px solid;
+     border-left:grey 1px solid;
+  }
+  #caja4{
+    height: 100%;
+    width:100%;
+    background-color: white;
+    grid-area: content5;
+    border-right:grey 1px solid;
+    border-bottom:grey 1px solid;
+    
+  }
+  .img-cubos{
+    width: 40px;
+    height:40px;
+    vertical-align: middle;
+    
+  }
+  a{
+    text-decoration: none;
+    color:black
+  }
+
+  #contacto{
+   display:flex;
+   flex-direction:column;
+
+  }
+  #contacto-h2{
+    text-align: center;
+    align-self:center;
+    grid-area:superiorc;
+    font-size: 20px;
+  }
+
+  #col1{
+   
+    grid-area: izquierda;
+    text-align: center;
+    width:100%;
+    line-height: 25px;
+    font-size: 15px;
+  color:rgb(39, 38, 38);
+  }
+
+  #col2{
+   
+    grid-area:centro;
+    text-align: center;
+    width:100%;
+    line-height: 25px;
+    font-size: 15px;
+    color:rgb(39, 38, 38);
+  }
+
+  #col3{
+   
+    grid-area:derecha;
+    text-align: center;
+    width:100%;
+    line-height: 25px;
+    font-size: 15px;
+    color:rgb(39, 38, 38);
+  }
+h2{
+margin:30px;
+}
+
+#suscripcion{
+height:200px;
+margin-top: 50px;
+margin-bottom:50px;
+text-align:center;
+
+}
+#titulo{
+font-size: 40px;
+
+
+
+}
+
+#parrafo{
+
+margin-bottom:15px;
+}  
+
+
+#email{
+
+background-color:white; ;
+padding:10px;
+border-top-style:none;
+border-left-style:none;
+border-right-style:none;
+
+
+}
+
+
+
+#submit{
+
+margin-bottom:10px;
+margin:20px;
+padding:10px;
+background-color: white;
+color:black;
+border-radius: 10px;
+grid-area:11;
+transition: all 0.5s ease;
+}
+#boton:hover{
+  
+  cursor:pointer;
+  color:white;
+  background:rgb(0, 0, 0);
+  padding:14px;
+}
+#redes-sociales{
+  text-align: center;
+  margin-top:60px;
+}
+.redes{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 80px;
+margin:0;
+  
+}
+
+#instagram{
+  
+  height: 8px;
+  padding-right: 15px;
+  border-right-style:solid;
+  border-width: 1px;
+}
+#facebook{
+  
+  padding-left:15px
+
+}
+footer{
+  height:30px;
+}
+#header-img{
+  height:40px;
+  width:40px;
+  border-radius: 60px;
+ 
+}
+}
