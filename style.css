@@ -559,7 +559,7 @@ text-align: center;}
   }
   a{
     text-decoration: none;
-    color:black
+    color:black;
   }
 
   #contacto{
@@ -629,7 +629,7 @@ margin-bottom:15px;
 
 #email{
 
-background-color:white; ;
+background-color:white; 
 padding:10px;
 border-top-style:none;
 border-left-style:none;
@@ -680,7 +680,7 @@ margin:0;
 }
 #facebook{
   
-  padding-left:15px
+  padding-left:15px;
 
 }
 footer{
